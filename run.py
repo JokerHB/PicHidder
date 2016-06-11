@@ -18,7 +18,7 @@ def demo():
     hidder.hideImage('./demo/test_src.jpg', './demo/hide_src.jpg', './demo/hide_dest.png')
     hidder.displayImage('./demo/hide_dest.png', './demo/display_dest.png')
 
-# if __name__ == 'main':
+
 hidder = PicHide.Hidder()
 hideFunction = '*11.hide zip in pic\n*12.hide string in pic\n*13.hide text in pic\n*14.hide pic in pic'
 displayFunction = '*21.display zip in pic\n*22.display string in pic\n*23.display text in pic\n*24.display pic in pic'
@@ -67,7 +67,7 @@ elif function == '21':
 
 elif function == '22':
     src = str(raw_input('please input the src pic path\n'))
-
+    
     hidder.displayString(src)
 
 elif function == '24':
@@ -79,3 +79,5 @@ elif function == '24':
 else:
     print 'please input the corrected number'
     exit(0)
+
+exit(0)
