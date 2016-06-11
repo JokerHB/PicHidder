@@ -5,18 +5,18 @@ def demo():
 
     hidder = PicHide.Hidder()
 
-    hidder.hideZip('./test_src.jpg', './hide_src.zip', './zip_dest.jpg')
-    hidder.displayZip('./zip_dest.jpg', './zip_dest')
+    hidder.hideZip('./demo/test_src.jpg', './demo/hide_src.zip', './demo/zip_dest.jpg')
+    hidder.displayZip('./demo/zip_dest.jpg', './demo/zip_dest')
 
-    hidder.hideString('./test_src.jpg', 'hello world', './str_dest.png')
-    hidder.hideString('./test_src.jpg', 'hhhhhhhhhhh', './str_dest.bmp')
-    hidder.displayString('./str_dest.bmp')
+    hidder.hideString('./demo/test_src.jpg', 'hello world', './demo/str_dest.png')
+    hidder.hideString('./demo/test_src.jpg', 'hhhhhhhhhhh', './demo/str_dest.bmp')
+    hidder.displayString('./demo/str_dest.bmp')
 
-    hidder.hideText('./test_src.jpg', './text_src.txt', './text_dest.png')
-    hidder.displayText('./text_dest.png', './text_dest.txt')
+    hidder.hideText('./demo/test_src.jpg', './demo/text_src.txt', './demo/text_dest.png')
+    hidder.displayText('./demo/text_dest.png', './demo/text_dest.txt')
 
-    hidder.hideImage('./test_src.jpg', './hide_src.jpg', './hide_dest.png')
-    hidder.displayImage('./hide_dest.png', './display_dest.png')
+    hidder.hideImage('./demo/test_src.jpg', './demo/hide_src.jpg', './demo/hide_dest.png')
+    hidder.displayImage('./demo/hide_dest.png', './demo/display_dest.png')
 
 # if __name__ == 'main':
 hidder = PicHide.Hidder()
